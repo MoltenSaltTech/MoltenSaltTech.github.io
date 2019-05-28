@@ -782,8 +782,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
-  background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
 }
@@ -861,10 +859,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   -ms-flex-align: center;
   align-items: center;
   transition: 0.2s;
+  margin-top: 1rem;
 }
 
 #team .member .member-info-content {
   transition: margin 0.2s;
+}
+
+#team .member .member-info-content .descrip{
+  margin-top: .5rem;
 }
 
 
